@@ -1,0 +1,61 @@
+.lanmu .input-group{
+	margin-top: 10px;
+}
+.lanmu .input-group .tijiao{
+	margin-left: 125px;
+}
+
+.formAdd .fabiao input{
+	margin-left: 421px;
+    margin-top: 20px;
+    width: 100px;
+    height: 43px;
+    font-size: 18px;
+    border-radius: 40px;
+}
+.articlelist img{
+	width:50px;
+	height:50px;
+}
+
+.login h1{
+	margin-left: 422px;
+}
+
+/*客户端*/
+
+/*首页头部样式*/
+.indexHead{
+	margin-top: 10px;
+}
+/*首页导航条颜色*/
+.navColor{
+	background: #ff8800;
+}
+/*设置首页头部默认样式*/
+.navHead{
+	background: #f16300;
+	color: #fff;
+}
+
+.navColor .navfenlei>li>a{
+	color: #fff;
+	font-size: 17px;
+}
+
+.container .zhutiys{
+	background-color: #d4cbb8;
+    border-color: #b8c2cc;
+     color: #807c7c;
+}
+
+.listwz .row .col-md-12 .listpic img{
+	width: 100px;
+    height: 100px;
+}
+
+
+.lianjie .panel-body a{
+	text-decoration: none;
+	color:black;
+}

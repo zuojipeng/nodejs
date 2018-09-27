@@ -1,0 +1,23 @@
+<% include ./header %>
+
+<!-- 栏目 -->
+<div class="container listwz">
+	<div class="row">
+	    <div class="col-md-12"> 
+	       <ol class="breadcrumb">
+	          <h3><a href="#">好看的文章</a></h3>
+			</ol>
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<% Edits.forEach(function(val){ %>
+				    <h3><%= val.title%></h3>
+	                <li><%- val.content%></li>
+	            <% }) %>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+</div>
+<!-- 栏目 end -->
+
+<% include ./footer %>
